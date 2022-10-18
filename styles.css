@@ -74,20 +74,20 @@ body {
   border-radius: 10px;
 }
 
-.card > h2 {
+.card h2 {
   background-color: #1798de;
   color: white;
   padding: 5px 0;
   border-radius: 10px;
 }
 
-.card > img {
+.card img {
   width: 350px;
   height: 350px;
   border-radius: 50%;
 }
 
-.card > p {
+.card p {
   background-color: #014adf;
   color: white;
   padding: 5px 0;
@@ -104,7 +104,7 @@ body {
   color: white;
 }
 
-#footer > img {
+#footer img {
   width: 300px;
   height: 300px;
   border-radius: 50%;
