@@ -65,6 +65,7 @@ body {
 
 .card {
   width: 500px;
+  height: 500px;
   margin: 100px auto;
   padding: 0 15px;
   transition: 0.7s ease-out;
@@ -85,8 +86,8 @@ body {
 }
 
 .card img {
-  width: 350px;
-  height: 350px;
+  width: 60%;
+  height: 60%;
   border-radius: 50%;
 }
 
@@ -95,6 +96,7 @@ body {
   color: white;
   padding: 5px 0;
   border-radius: 10px;
+  width: 100%;
 }
 
 #footer {
@@ -108,8 +110,8 @@ body {
 }
 
 #footer img {
-  width: 300px;
-  height: 300px;
+  width: 15%;
+  height: 70%;
   border-radius: 50%;
   padding: 0 50px;
 }
@@ -119,8 +121,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 500px;
-  height: 300px;
+  width: 20%;
+  height: 70%;
   background-color: #1798de;
   border-radius: 15px;
+  padding: 0 15px;
 }
