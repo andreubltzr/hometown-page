@@ -34,19 +34,19 @@ body {
 
 #activities-title {
   margin: 0;
-  background-color: #92cdec;
+  background-color: #b9d0e9;
   padding: 40px 0;
-  color: #1a2f57;
+  color: #0e2239;
 }
 
 #activities {
   display: flex;
   justify-content: space-evenly;
-  background-color: #92cdec;
+  background-color: #b9d0e9;
   width: 100%;
   padding-bottom: 50px;
   flex-wrap: wrap;
-  color: #0e1a2f;
+  color: #0e2239;
 }
 
 .card {
