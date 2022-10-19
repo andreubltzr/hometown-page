@@ -2,9 +2,9 @@
 
 body {
   font-family: "JetBrains Mono", monospace;
+  text-align: center;
   margin: 0;
   padding: 0;
-  text-align: center;
 }
 
 #header {
@@ -19,7 +19,6 @@ body {
 
 #header-title,
 #header-subtitle {
-  margin: 5px;
   color: white;
   padding: 15px 30px;
   border-radius: 10px;
@@ -33,97 +32,51 @@ body {
   background-color: #1798de;
 }
 
+#activities-title {
+  margin: 0;
+  background-color: #92cdec;
+  padding: 40px 0;
+}
+
 #activities {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 100vh;
-  background-color: #92cdec;
-  color: #12357c;
-}
-
-#activities-title-div {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-#activities-title-div > h3 {
-  font-size: xx-large;
-  margin: 0;
-  background-color: #014adf;
-  color: white;
-  padding: 10px 15px;
-  border-radius: 10px;
-}
-
-#card-container {
-  display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  background-color: #92cdec;
+  width: 100%;
+  padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .card {
-  width: 500px;
-  height: 500px;
-  margin: 100px auto;
-  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
   transition: 0.7s ease-out;
 }
 
 .card:hover {
   background-color: #75bfe7;
-  border-radius: 10px;
   transform: scale(1.1);
   transition: 0.7s ease;
-}
-
-.card h2 {
-  background-color: #1798de;
-  color: white;
-  padding: 5px 0;
   border-radius: 10px;
-}
-
-.card img {
-  width: 60%;
-  height: 60%;
-  border-radius: 50%;
-}
-
-.card p {
-  background-color: #014adf;
-  color: white;
-  padding: 5px 0;
-  border-radius: 10px;
-  width: 100%;
 }
 
 #footer {
-  height: 450px;
+  background-color: #014adf;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #75bfe7;
-  color: #12357c;
+  overflow: auto;
+  height: 400px;
   color: white;
 }
 
 #footer img {
-  width: 15%;
-  height: 70%;
+  width: 300px;
   border-radius: 50%;
-  padding: 0 50px;
 }
 
 #guide-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 20%;
-  height: 70%;
-  background-color: #1798de;
-  border-radius: 15px;
-  padding: 0 15px;
+  padding: 20px;
 }
